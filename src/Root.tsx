@@ -1,6 +1,7 @@
 import { Composition, registerRoot } from "remotion";
 // 修改 1：引入 registerRoot
 import { MyVideo } from "./MyVideo";
+import { TrigFunctionsDemo } from "./TrigFunctionsDemo";
 import { WelcomeVideo } from "./WelcomeVideo";
 
 export const RemotionRoot = () => {
@@ -18,6 +19,14 @@ export const RemotionRoot = () => {
         id="WelcomeVideo"
         component={WelcomeVideo}
         durationInFrames={90}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="TrigFunctionsDemo"
+        component={TrigFunctionsDemo}
+        durationInFrames={300}
         fps={30}
         width={1920}
         height={1080}
