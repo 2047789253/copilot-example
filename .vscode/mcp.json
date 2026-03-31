@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "my-mcp-server-56c3c349": {
+      "url": "https://api.githubcopilot.com/mcp/",
+      "type": "http"
+    },
+    "remotion-mcp": {
+      "command": "node",
+      "args": [".github/mcp-servers/remotion-mcp/index.js"],
+      "type": "stdio"
+    }
+  },
+  "inputs": []
+}
